@@ -9,25 +9,33 @@ public class PlayerMovement : MonoBehaviour
     private float rotationSpeed;
     private float translation;
     private float rotation;
+
+    [SerializeField] Camera player_camera;
     #endregion
 
     #region Unity Methods
     // Start is called before the first frame update
     void Start()
     {
-        speed = 5f;
-        rotationSpeed = 100f;
+        speed = 3f;
+        rotationSpeed = 50f;
     }
 
     // Update is called once per frame
     void Update()
     {
         HandleInput();
+        
     }
 
     #endregion
 
     #region Custom Methods
+    /// <summary>
+    /// Handles Input for user movement/interaction
+    /// Translates the player's position with respect to their Vertical-Axiss
+    /// Rotates the horizantal axis of the player
+    /// </summary>
     void HandleInput()
     {
         translation = Input.GetAxis("Vertical") * speed * Time.deltaTime;
@@ -35,6 +43,19 @@ public class PlayerMovement : MonoBehaviour
 
         transform.Translate(0f, 0f, translation);
         transform.Rotate(0f, rotation, 0f);
+
+        RotateCamera();
+    }
+
+    /// <summary>
+    /// Rotates camera in a Vertical manner -- Horizantal is controlled in HandleInput function
+    /// Uses the mouse's Y-Axis to rotate the camera with respect to the player's X-Axis
+    /// Uses -y_axis to avoid the camera rotation being inverted
+    /// </summary>
+    void RotateCamera()
+    {
+        float y_axis = Input.GetAxis("Mouse Y");
+        player_camera.transform.Rotate(-y_axis, 0f, 0f);
     }
     #endregion
 }
