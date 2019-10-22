@@ -57,7 +57,7 @@ public class Character_Controller : MonoBehaviour
         if (other.gameObject.CompareTag("Battery"))
         {
             other.gameObject.SetActive(false);
-            flash.flashlight.intensity += 10;
+            flash.flashlight.intensity += 1;
         }
        
     }

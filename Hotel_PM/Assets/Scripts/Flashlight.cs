@@ -40,7 +40,7 @@ public class Flashlight : MonoBehaviour
                // flashlight.enabled = true;
                 if (flashlight.intensity > 0)
                 {
-                    flashlight.intensity -= 5.0f * Time.deltaTime;
+                    flashlight.intensity -= .01f * Time.deltaTime;
                 }
                 else
                 {
