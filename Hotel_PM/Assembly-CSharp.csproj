@@ -67,6 +67,7 @@
     <Compile Include="Assets\NavMeshComponents\Scripts\NavMeshModifierVolume.cs" />
     <Compile Include="Assets\NavMeshComponents\Scripts\NavMeshSurface.cs" />
     <Compile Include="Assets\Scripts\Character_Controller.cs" />
+    <Compile Include="Assets\Scripts\Door_Controller.cs" />
     <Compile Include="Assets\Scripts\Flashlight.cs" />
     <Compile Include="Assets\Scripts\Ghosts\HuntingGhost_FieldOfViewController.cs" />
     <Compile Include="Assets\Scripts\Ghosts\HuntingGhost_WanderController.cs" />

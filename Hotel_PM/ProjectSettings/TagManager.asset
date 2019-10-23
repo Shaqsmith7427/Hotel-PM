@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Battery
+  - Door
   layers:
   - Default
   - TransparentFX
@@ -17,8 +18,8 @@ TagManager:
   - Obstacle
   - Player
   - Wall
-  - 
-  - 
+  - Door
+  - Mirror
   - 
   - 
   - 

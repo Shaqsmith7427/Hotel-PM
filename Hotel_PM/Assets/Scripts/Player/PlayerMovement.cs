@@ -25,7 +25,7 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         HandleInput();
-        
+        RotateCamera();
     }
 
     #endregion
@@ -44,7 +44,7 @@ public class PlayerMovement : MonoBehaviour
         transform.Translate(0f, 0f, translation);
         transform.Rotate(0f, rotation, 0f);
 
-        RotateCamera();
+        
     }
 
     /// <summary>
@@ -57,5 +57,7 @@ public class PlayerMovement : MonoBehaviour
         float y_axis = Input.GetAxis("Mouse Y");
         player_camera.transform.Rotate(-y_axis, 0f, 0f);
     }
+
+   
     #endregion
 }
