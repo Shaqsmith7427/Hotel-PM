@@ -73,6 +73,7 @@
     <Compile Include="Assets\Scripts\Ghosts\HuntingGhost_WanderController.cs" />
     <Compile Include="Assets\Scripts\Ghosts\WanderingGhost_FieldOfViewController.cs" />
     <Compile Include="Assets\Scripts\Ghosts\WanderingGhost_WanderController.cs" />
+    <Compile Include="Assets\Scripts\Light_Controller.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
     <Reference Include="Unity.Timeline.Editor">

@@ -6,6 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     #region Variables
     public Flashlight flash;
+
     #endregion
 
     #region Unity Methods
@@ -60,7 +61,17 @@ public class PlayerController : MonoBehaviour
                 {
                     Debug.Log("Battery Click..");
                     hit.collider.gameObject.SetActive(false);
-                    flash.flashlight.intensity += 10;
+                    flash.flashlight.intensity += 1;
+                }
+
+                if (hit.collider.CompareTag("Light"))
+                {
+                    Light_Controller light = hit.transform.GetComponent<Light_Controller>();
+                    Debug.Log("Light Click..");
+                    if (light)
+                    {
+                        light.setLight();
+                    }
                 }
             }
         }

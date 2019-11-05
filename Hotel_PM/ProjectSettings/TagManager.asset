@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Battery
   - Door
+  - Light
   layers:
   - Default
   - TransparentFX
