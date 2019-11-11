@@ -7,13 +7,14 @@ public class PlayerController : MonoBehaviour
     #region Variables
     public Flashlight flash;
 
+    private bool hasKey;
     #endregion
 
     #region Unity Methods
     // Start is called before the first frame update
     void Start()
     {
-        
+        hasKey = false;        
     }
 
     // Update is called once per frame
@@ -57,6 +58,17 @@ public class PlayerController : MonoBehaviour
                     }
                 }
 
+                if (hit.collider.CompareTag("LevelDoor"))
+                {
+                    Door_Controller door = hit.transform.GetComponent<Door_Controller>();
+                    if (door)
+                    {
+                        Debug.Log("LevelDoor Click..");
+                        if (hasKey)
+                            door.MoveDoor(door);
+                    }
+                }
+
                 if (hit.collider.CompareTag("Battery"))
                 {
                     Debug.Log("Battery Click..");
@@ -72,6 +84,13 @@ public class PlayerController : MonoBehaviour
                     {
                         light.setLight();
                     }
+                }
+
+                if (hit.collider.CompareTag("Key"))
+                {
+                    Debug.Log("Key Click..");
+                    hasKey = true;
+                    hit.collider.gameObject.SetActive(false);
                 }
             }
         }

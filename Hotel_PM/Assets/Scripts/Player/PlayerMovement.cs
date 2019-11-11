@@ -8,7 +8,11 @@ public class PlayerMovement : MonoBehaviour
     private float speed;
     private float rotationSpeed;
     private float translation;
+    private float v_translation;
+    private float h_translation;
     private float rotation;
+    private float mouse_y_axis;
+    private float mouse_x_axis;
 
     [SerializeField] Camera player_camera;
     #endregion
@@ -38,13 +42,19 @@ public class PlayerMovement : MonoBehaviour
     /// </summary>
     void HandleInput()
     {
+        //Moves Forward and back along z axis                           //Up/Down
+        transform.Translate(Vector3.forward * Time.deltaTime * Input.GetAxis("Vertical") * speed);
+        //Moves Left and right along x Axis                               //Left/Right
+        transform.Translate(Vector3.right * Time.deltaTime * Input.GetAxis("Horizontal") * speed);
+
+
+        /*
         translation = Input.GetAxis("Vertical") * speed * Time.deltaTime;
-        rotation = Input.GetAxis("Horizontal") * rotationSpeed * Time.deltaTime;
+        rotation = Input.GetAxis("Horizontal") * speed * Time.deltaTime;
 
         transform.Translate(0f, 0f, translation);
-        transform.Rotate(0f, rotation, 0f);
-
-        
+        //transform.Rotate(0f, rotation, 0f);
+        */
     }
 
     /// <summary>
@@ -54,8 +64,13 @@ public class PlayerMovement : MonoBehaviour
     /// </summary>
     void RotateCamera()
     {
-        float y_axis = Input.GetAxis("Mouse Y");
-        player_camera.transform.Rotate(-y_axis, 0f, 0f);
+        //Rotates Up & Down -- Rotates camera (Flashlight won't follow camera)
+         mouse_y_axis= Input.GetAxis("Mouse Y");
+         player_camera.transform.Rotate(-mouse_y_axis, 0f, 0f);
+
+        //Rotates Left & Right -- Rotates player
+        rotation = Input.GetAxis("Mouse X") * rotationSpeed * Time.deltaTime;
+        transform.Rotate(0f, rotation, 0f);
     }
 
    

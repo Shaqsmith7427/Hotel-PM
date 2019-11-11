@@ -6,7 +6,6 @@ public class Door_Controller : MonoBehaviour
 {
     #region Variables
     bool isDoorOpen;
-    float rotationSpeed = 25f;
 
     [SerializeField] GameObject door;
     #endregion
@@ -14,7 +13,8 @@ public class Door_Controller : MonoBehaviour
     #region Unity Methods
     private void Start()
     {
-        isDoorOpen = false; //All doors are closed by default
+        //All doors are closed by default
+        isDoorOpen = false; 
     }
     #endregion
 
@@ -28,6 +28,7 @@ public class Door_Controller : MonoBehaviour
     {
         if(isDoorOpen)
         {
+            //Works but isn't smooth :(
             door.transform.Rotate(0f, 90f, 0f);
             isDoorOpen = false;
         }

@@ -73,6 +73,8 @@
     <Compile Include="Assets\Scripts\Ghosts\HuntingGhost_WanderController.cs" />
     <Compile Include="Assets\Scripts\Ghosts\WanderingGhost_FieldOfViewController.cs" />
     <Compile Include="Assets\Scripts\Ghosts\WanderingGhost_WanderController.cs" />
+    <Compile Include="Assets\Scripts\HallwayLightsController.cs" />
+    <Compile Include="Assets\Scripts\Key_Controller.cs" />
     <Compile Include="Assets\Scripts\Light_Controller.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />

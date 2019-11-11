@@ -14,7 +14,8 @@ public class Light_Controller : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        isLightOn = true;
+        //Lights are off by default (not including lights in the hallway)
+        isLightOn = false;
     }
 
     // Update is called once per frame
