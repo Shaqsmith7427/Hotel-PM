@@ -413,9 +413,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 85.47364, y: 186.66263, z: -60.55295}
+    m_Target: {x: -34.091614, y: 174.74918, z: 58.74752}
     speed: 2
-    m_Value: {x: 85.47364, y: 186.66263, z: -60.55295}
+    m_Value: {x: -34.091614, y: 174.74918, z: 58.74752}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -446,11 +446,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
     speed: 2
-    m_Value: {x: 0.70710677, y: 0, z: 0, w: 0.70710677}
+    m_Value: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_Size:
-    m_Target: 32.95762
+    m_Target: 113.375916
     speed: 2
-    m_Value: 31.538391
+    m_Value: 108.4937
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -568,10 +568,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: fe340000
-      m_LastClickedID: 13566
-      m_ExpandedIDs: 6cfbffff5a360000
+      scrollPos: {x: 0, y: 76.549095}
+      m_SelectedIDs: de320000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 6cfbfffffe2d00001a3600005a360000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -672,20 +672,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Materials/Floor&Wall MATS
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Materials/Floor&Wall MATS
+  - Assets/Scripts
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\Steve\Desktop\Hotel PM Repo\Hotel-PM\Hotel_PM
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: d2390000
-    m_LastClickedID: 14802
-    m_ExpandedIDs: 00000000b6390000b8390000ba390000d039000000ca9a3b
+    scrollPos: {x: 0, y: 87}
+    m_SelectedIDs: e6390000
+    m_LastClickedID: 14822
+    m_ExpandedIDs: 00000000b6390000b8390000ba390000d239000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -740,7 +740,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000000000003c3c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -790,8 +790,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 891
+    x: 885
     y: 436
-    width: 473
+    width: 479
     height: 253
   m_ViewDataDictionary: {fileID: 0}

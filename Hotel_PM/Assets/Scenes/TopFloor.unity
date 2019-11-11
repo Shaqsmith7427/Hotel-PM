@@ -2751,6 +2751,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   light: {fileID: 1671115844}
+  rotationSpeed: 180
 --- !u!65 &409187960
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3275,6 +3276,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   light: {fileID: 1829319810}
+  rotationSpeed: 180
 --- !u!65 &476150762
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3653,6 +3655,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   light: {fileID: 919077107}
+  rotationSpeed: 180
 --- !u!65 &552136569
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5065,6 +5068,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   light: {fileID: 795051958}
+  rotationSpeed: 180
 --- !u!65 &746442521
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6495,6 +6499,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   light: {fileID: 1096310412}
+  rotationSpeed: 180
 --- !u!65 &965572113
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11266,6 +11271,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   light: {fileID: 394548559}
+  rotationSpeed: 180
 --- !u!65 &1782502921
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12674,6 +12680,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   light: {fileID: 1113814612}
+  rotationSpeed: 180
 --- !u!65 &2011440473
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13140,6 +13147,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   light: {fileID: 562059632497785746}
+  rotationSpeed: 90
 --- !u!65 &2077809445
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13166,6 +13174,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   light: {fileID: 2530877262660513831}
+  rotationSpeed: 180
 --- !u!65 &2077809449
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13205,6 +13214,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   light: {fileID: 8519181310625808873}
+  rotationSpeed: 180
 --- !u!65 &2077809455
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13231,6 +13241,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   light: {fileID: 5790539266323307361}
+  rotationSpeed: 180
 --- !u!65 &2077809459
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13257,6 +13268,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   light: {fileID: 7817063310531999095}
+  rotationSpeed: 180
 --- !u!65 &2077809467
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13283,6 +13295,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   light: {fileID: 1567631533234042462}
+  rotationSpeed: 180
 --- !u!65 &2077809475
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13309,6 +13322,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   light: {fileID: 4931633784912631732}
+  rotationSpeed: 180
 --- !u!65 &2097046912
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13633,6 +13647,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   light: {fileID: 1017443837}
+  rotationSpeed: 180
 --- !u!65 &2138387999
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15952,7 +15967,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7739517672159191082}
-  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
+  m_LocalRotation: {x: -0.6625782, y: -0.24669419, z: -0.2466081, w: 0.66280955}
   m_LocalPosition: {x: 0.94725037, y: 2.4060516, z: -12.224712}
   m_LocalScale: {x: 59.228462, y: 59.228447, z: 18.110077}
   m_Children:
@@ -15960,7 +15975,7 @@ Transform:
   - {fileID: 7848112928150474091}
   m_Father: {fileID: 117826110}
   m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -89.98, y: -40.83, z: 0}
 --- !u!33 &2247942118567721731
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -19222,7 +19237,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &5070360997019007393
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22621,6 +22636,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   light: {fileID: 5006396473884444421}
+  rotationSpeed: 180
 --- !u!65 &8274873703056780476
 BoxCollider:
   m_ObjectHideFlags: 0
