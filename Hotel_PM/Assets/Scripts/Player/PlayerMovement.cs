@@ -22,7 +22,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         speed = 3f;
-        rotationSpeed = 50f;
+        rotationSpeed = 25f;
     }
 
     // Update is called once per frame
@@ -44,17 +44,8 @@ public class PlayerMovement : MonoBehaviour
     {
         //Moves Forward and back along z axis                           //Up/Down
         transform.Translate(Vector3.forward * Time.deltaTime * Input.GetAxis("Vertical") * speed);
-        //Moves Left and right along x Axis                               //Left/Right
-        transform.Translate(Vector3.right * Time.deltaTime * Input.GetAxis("Horizontal") * speed);
-
-
-        /*
-        translation = Input.GetAxis("Vertical") * speed * Time.deltaTime;
-        rotation = Input.GetAxis("Horizontal") * speed * Time.deltaTime;
-
-        transform.Translate(0f, 0f, translation);
-        //transform.Rotate(0f, rotation, 0f);
-        */
+        //Rotates Left and right along x Axis                               //Left/Right
+        transform.Rotate(0f, Input.GetAxis("Horizontal")* rotationSpeed * Time.deltaTime, 0f);
     }
 
     /// <summary>
@@ -64,15 +55,28 @@ public class PlayerMovement : MonoBehaviour
     /// </summary>
     void RotateCamera()
     {
+        /*
         //Rotates Up & Down -- Rotates camera (Flashlight won't follow camera)
          mouse_y_axis= Input.GetAxis("Mouse Y");
-         player_camera.transform.Rotate(-mouse_y_axis, 0f, 0f);
+         transform.Rotate(-mouse_y_axis, 0f, 0f);
+         Mathf.Clamp(transform.eulerAngles.y, -45, 0);
 
         //Rotates Left & Right -- Rotates player
-        rotation = Input.GetAxis("Mouse X") * rotationSpeed * Time.deltaTime;
-        transform.Rotate(0f, rotation, 0f);
-    }
+        mouse_x_axis = Input.GetAxis("Mouse X");
+        transform.Rotate(0f, mouse_x_axis, 0f);
+        Mathf.Clamp(transform.eulerAngles.x, -15, 15);
+        */
 
-   
+        mouse_y_axis = -Input.GetAxis("Mouse Y") * (2 * rotationSpeed) * Time.deltaTime;
+        //mouse_x_axis = Input.GetAxis("Mouse X") * (2 * rotationSpeed) * Time.deltaTime;
+
+        //Mathf.Clamp(mouse_y_axis, -30, 30);
+        //Mathf.Clamp(mouse_x_axis, -30, 30);
+
+        Mathf.Clamp(mouse_y_axis, -15f, 15f);
+
+        //player_camera.transform.Rotate(mouse_y_axis, mouse_x_axis, 0f);
+        player_camera.transform.Rotate(mouse_y_axis, 0f, 0f);
+    }
     #endregion
 }

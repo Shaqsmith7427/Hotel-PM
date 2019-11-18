@@ -63,6 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Editor\HuntingGhost_FieldOfView_Editor.cs" />
+    <Compile Include="Assets\Editor\PlayerController_Editor.cs" />
     <Compile Include="Assets\Editor\WanderingGhost_FieldOfViewController_Editor.cs" />
     <Compile Include="Assets\NavMeshComponents\Editor\NavMeshComponentsGUIUtility.cs" />
     <Compile Include="Assets\NavMeshComponents\Editor\NavMeshLinkEditor.cs" />

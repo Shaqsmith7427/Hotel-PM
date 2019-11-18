@@ -6,6 +6,7 @@ public class Key_Controller : MonoBehaviour
 {
     #region Variables
     [SerializeField] float rotationSpeed = 50f;
+    [SerializeField] GameObject key;
     #endregion
 
     #region Unity Methods
@@ -25,7 +26,7 @@ public class Key_Controller : MonoBehaviour
     #region Custom Methods
     void RotateKey()
     {
-        transform.Rotate(0f, rotationSpeed * Time.deltaTime, 0f);
+        key.transform.Rotate(rotationSpeed * Time.deltaTime, 0f, 0f);
     }
     #endregion
 }
