@@ -40,6 +40,7 @@ public class WanderingGhost_WanderController : MonoBehaviour
         // Choose the next destination point when the agent gets close to the current one
         if (!navMeshAgent.pathPending && navMeshAgent.remainingDistance < 0.5f)
         {
+            Debug.Log("Ghost: Destination has been reached.. setting a new one");
             //Set new position
             SetRandomLocation();
         }

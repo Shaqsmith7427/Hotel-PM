@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GreenFloor.unity
     guid: 608733e8e89cac24aa78d540c91c94a3
+  - enabled: 1
+    path: Assets/Scenes/YellowFloor.unity
+    guid: 3f40481c74328f6438196d0c6abc1857
   m_configObjects: {}
