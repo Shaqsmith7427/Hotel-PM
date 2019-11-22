@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Menu_Screen.unity
+    guid: b25aa9efde74f674887a16217a5b6e01
+  - enabled: 1
     path: Assets/Scenes/RedFloor.unity
     guid: efffbfd16f2350f499c61a3d0c169252
   - enabled: 1

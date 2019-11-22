@@ -1046,6 +1046,75 @@ MonoBehaviour:
   m_Area: 1
   m_IgnoreFromBuild: 0
   m_AffectedAgents: ffffffff
+--- !u!1001 &249499569
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 635959757174872433, guid: cbe4efd1bb4a7134a933873d3c5aecc8,
+        type: 3}
+      propertyPath: m_Name
+      value: Background_Music
+      objectReference: {fileID: 0}
+    - target: {fileID: 3611887205906215684, guid: cbe4efd1bb4a7134a933873d3c5aecc8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -19.501026
+      objectReference: {fileID: 0}
+    - target: {fileID: 3611887205906215684, guid: cbe4efd1bb4a7134a933873d3c5aecc8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 150.66675
+      objectReference: {fileID: 0}
+    - target: {fileID: 3611887205906215684, guid: cbe4efd1bb4a7134a933873d3c5aecc8,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -24.882828
+      objectReference: {fileID: 0}
+    - target: {fileID: 3611887205906215684, guid: cbe4efd1bb4a7134a933873d3c5aecc8,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3611887205906215684, guid: cbe4efd1bb4a7134a933873d3c5aecc8,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3611887205906215684, guid: cbe4efd1bb4a7134a933873d3c5aecc8,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3611887205906215684, guid: cbe4efd1bb4a7134a933873d3c5aecc8,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3611887205906215684, guid: cbe4efd1bb4a7134a933873d3c5aecc8,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3611887205906215684, guid: cbe4efd1bb4a7134a933873d3c5aecc8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3611887205906215684, guid: cbe4efd1bb4a7134a933873d3c5aecc8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3611887205906215684, guid: cbe4efd1bb4a7134a933873d3c5aecc8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cbe4efd1bb4a7134a933873d3c5aecc8, type: 3}
 --- !u!1 &270650359
 GameObject:
   m_ObjectHideFlags: 0
@@ -1714,11 +1783,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 117826110}
     m_Modifications:
-    - target: {fileID: 4105652526499912456, guid: 51255d34aa230e044bb15f5b2687fa3a,
-        type: 3}
-      propertyPath: m_Name
-      value: DoorPivot (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 4105652526499912457, guid: 51255d34aa230e044bb15f5b2687fa3a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1778,6 +1842,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 0.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 4105652526499912456, guid: 51255d34aa230e044bb15f5b2687fa3a,
+        type: 3}
+      propertyPath: m_Name
+      value: DoorPivot (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51255d34aa230e044bb15f5b2687fa3a, type: 3}
@@ -1927,11 +1996,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1518788118}
     m_Modifications:
-    - target: {fileID: 4105652526499912456, guid: 51255d34aa230e044bb15f5b2687fa3a,
-        type: 3}
-      propertyPath: m_Name
-      value: DoorPivot
-      objectReference: {fileID: 0}
     - target: {fileID: 4105652526499912457, guid: 51255d34aa230e044bb15f5b2687fa3a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1991,6 +2055,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.x
       value: 1.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 4105652526499912456, guid: 51255d34aa230e044bb15f5b2687fa3a,
+        type: 3}
+      propertyPath: m_Name
+      value: DoorPivot
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51255d34aa230e044bb15f5b2687fa3a, type: 3}
@@ -2806,11 +2875,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1636921571}
     m_Modifications:
-    - target: {fileID: 4105652526499912456, guid: 51255d34aa230e044bb15f5b2687fa3a,
-        type: 3}
-      propertyPath: m_Name
-      value: DoorPivot (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 4105652526499912457, guid: 51255d34aa230e044bb15f5b2687fa3a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2875,6 +2939,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.x
       value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4105652526499912456, guid: 51255d34aa230e044bb15f5b2687fa3a,
+        type: 3}
+      propertyPath: m_Name
+      value: DoorPivot (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51255d34aa230e044bb15f5b2687fa3a, type: 3}
@@ -5694,11 +5763,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1636921571}
     m_Modifications:
-    - target: {fileID: 4105652526499912456, guid: 51255d34aa230e044bb15f5b2687fa3a,
-        type: 3}
-      propertyPath: m_Name
-      value: DoorPivot (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 4105652526499912457, guid: 51255d34aa230e044bb15f5b2687fa3a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5763,6 +5827,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.x
       value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4105652526499912456, guid: 51255d34aa230e044bb15f5b2687fa3a,
+        type: 3}
+      propertyPath: m_Name
+      value: DoorPivot (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51255d34aa230e044bb15f5b2687fa3a, type: 3}
@@ -7205,11 +7274,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 117826110}
     m_Modifications:
-    - target: {fileID: 4105652526499912456, guid: 51255d34aa230e044bb15f5b2687fa3a,
-        type: 3}
-      propertyPath: m_Name
-      value: DoorPivot (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 4105652526499912457, guid: 51255d34aa230e044bb15f5b2687fa3a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7269,6 +7333,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 0.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 4105652526499912456, guid: 51255d34aa230e044bb15f5b2687fa3a,
+        type: 3}
+      propertyPath: m_Name
+      value: DoorPivot (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51255d34aa230e044bb15f5b2687fa3a, type: 3}
@@ -11070,11 +11139,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 117826110}
     m_Modifications:
-    - target: {fileID: 4105652526499912456, guid: 51255d34aa230e044bb15f5b2687fa3a,
-        type: 3}
-      propertyPath: m_Name
-      value: DoorPivot
-      objectReference: {fileID: 0}
     - target: {fileID: 4105652526499912457, guid: 51255d34aa230e044bb15f5b2687fa3a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11129,6 +11193,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4105652526499912456, guid: 51255d34aa230e044bb15f5b2687fa3a,
+        type: 3}
+      propertyPath: m_Name
+      value: DoorPivot
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51255d34aa230e044bb15f5b2687fa3a, type: 3}
