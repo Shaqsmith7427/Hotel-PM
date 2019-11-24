@@ -9,6 +9,7 @@ TagManager:
   - Light
   - Key
   - LevelDoor
+  - Ghost
   layers:
   - Default
   - TransparentFX

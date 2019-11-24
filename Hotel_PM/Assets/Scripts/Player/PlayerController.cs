@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -22,8 +23,14 @@ public class PlayerController : MonoBehaviour
     {
         MouseClick();
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.tag == "Ghost")
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
     #endregion
- 
+
     #region Custom Methods
     /// <summary>
     /// This function is called in Update. 
