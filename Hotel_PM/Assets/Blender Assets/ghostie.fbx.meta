@@ -1,0 +1,179 @@
+fileFormatVersion: 2
+guid: 5ca784dfae05a7441a59179d77d9f257
+ModelImporter:
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      74: 1153676413013286879
+    second: Icosphere.002|CameraAction
+  - first:
+      74: -257922842009950429
+    second: Icosphere.002|Icosphere.001Action
+  - first:
+      74: -63766445395783617
+    second: Icosphere.002|Icosphere.002Action
+  - first:
+      74: 818994366839683271
+    second: Icosphere.002|IcosphereAction
+  - first:
+      74: -1198844117797262559
+    second: Icosphere.001|CameraAction
+  - first:
+      74: 4075965102321130359
+    second: Icosphere.001|Icosphere.001Action
+  - first:
+      74: -6201617201187894438
+    second: Icosphere.001|Icosphere.002Action
+  - first:
+      74: 6925238686465115197
+    second: Icosphere.001|IcosphereAction
+  - first:
+      74: 6917005492960053097
+    second: Icosphere|CameraAction
+  - first:
+      74: 2751515557927025504
+    second: Icosphere|Icosphere.001Action
+  - first:
+      74: -4790127499014351130
+    second: Icosphere|Icosphere.002Action
+  - first:
+      74: 6639205238635089029
+    second: Icosphere|IcosphereAction
+  - first:
+      74: 6190895504154207234
+    second: Ghost|CameraAction
+  - first:
+      74: -5165700541371913212
+    second: Ghost|Icosphere.001Action
+  - first:
+      74: 1085865206451959375
+    second: Ghost|Icosphere.002Action
+  - first:
+      74: -3326817902158920107
+    second: Ghost|IcosphereAction
+  - first:
+      74: -7603332072586156427
+    second: Focus|CameraAction
+  - first:
+      74: 2265414796185918298
+    second: Focus|Icosphere.001Action
+  - first:
+      74: 4259600185404795135
+    second: Focus|Icosphere.002Action
+  - first:
+      74: -5829011106563080739
+    second: Focus|IcosphereAction
+  - first:
+      74: 8985106526348729485
+    second: Lamp|CameraAction
+  - first:
+      74: 965539267146854162
+    second: Lamp|Icosphere.001Action
+  - first:
+      74: 7736464629005928701
+    second: Lamp|Icosphere.002Action
+  - first:
+      74: 863285018664866429
+    second: Lamp|IcosphereAction
+  - first:
+      74: 8440248360967096626
+    second: Camera|CameraAction
+  - first:
+      74: 6100541566600395256
+    second: Camera|Icosphere.001Action
+  - first:
+      74: 5279765637730885258
+    second: Camera|Icosphere.002Action
+  - first:
+      74: -3570781887099887092
+    second: Camera|IcosphereAction
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

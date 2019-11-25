@@ -12,8 +12,8 @@ public class HuntingGhost_WanderController : MonoBehaviour
     [SerializeField] private NavMeshHit navHit;
     [SerializeField] private Transform playerTrans;
 
-    private float range = 20f;
-    private float speed;
+    [SerializeField]  private float range;
+    [SerializeField]  private float speed;
 
     //Stores Vector3 that is from SetRandomLocation 
     [SerializeField] private Vector3 finalDestination;
@@ -23,7 +23,6 @@ public class HuntingGhost_WanderController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        speed = 1f;
         SetRandomLocation();
     }
 
@@ -38,7 +37,7 @@ public class HuntingGhost_WanderController : MonoBehaviour
     void MoveAgent()
     {
         // Choose the next destination point when the agent gets close to the current one
-        if (!navMeshAgent.pathPending && navMeshAgent.remainingDistance < 0.5f)
+        if (!navMeshAgent.pathPending && navMeshAgent.remainingDistance < 0.5f) //radiusOfSatisfaction = 0.5f;
         {
             Debug.Log("Ghost: Destination has been reached.. setting a new one");
             //Set new position

@@ -10,8 +10,8 @@ public class HuntingGhost_FieldOfViewController : MonoBehaviour
     [Range(0, 360)] //Restricts viewAngle to only have values of 0-360
     [SerializeField] private float viewAngle;
 
-    [Range(0, 100)]
-    [SerializeField] private float speed;
+    //[Range(0, 100)]
+    //[SerializeField] private float speed;
 
     [SerializeField] private GameObject player;
 
@@ -95,7 +95,7 @@ public class HuntingGhost_FieldOfViewController : MonoBehaviour
                     GetComponent<HuntingGhost_WanderController>().enabled = false;
                     //Sets the position of the the target in visibleTarges, ie moves towards the visible target-- 'attacks' the target
                     NavMeshAgent navAgent = navMeshAgentWanderController.getNavMeshAgent();
-                    navAgent.speed = speed;
+                    //navAgent.speed = speed;
                     navAgent.SetDestination(player.transform.position);
                 }
             }

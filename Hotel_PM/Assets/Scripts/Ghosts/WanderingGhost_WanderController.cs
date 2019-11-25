@@ -6,14 +6,16 @@ using UnityEngine.AI;
 public class WanderingGhost_WanderController : MonoBehaviour
 {
     #region Variables
+    [Range(0,5f)]
+    [SerializeField] private float radiusOfSatisfaction;
     [SerializeField] private Camera cam;
     [SerializeField] private GameObject player;
     [SerializeField] public NavMeshAgent navMeshAgent;
     [SerializeField] private NavMeshHit navHit;
     [SerializeField] private Transform playerTrans;
 
-    private float range = 20f;
-    private float speed;
+    [SerializeField]  private float range = 20f;
+    [SerializeField] private float speed = 7.5f;
 
     //Stores Vector3 that is from SetRandomLocation 
     [SerializeField] private Vector3 finalDestination;
@@ -23,7 +25,6 @@ public class WanderingGhost_WanderController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        speed = 4f;
         SetRandomLocation();
     }
 
@@ -38,7 +39,7 @@ public class WanderingGhost_WanderController : MonoBehaviour
     void MoveAgent()
     {
         // Choose the next destination point when the agent gets close to the current one
-        if (!navMeshAgent.pathPending && navMeshAgent.remainingDistance < 0.5f)
+        if (!navMeshAgent.pathPending && navMeshAgent.remainingDistance < radiusOfSatisfaction)
         {
             Debug.Log("Ghost: Destination has been reached.. setting a new one");
             //Set new position
